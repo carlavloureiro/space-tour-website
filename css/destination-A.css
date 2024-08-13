@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(/images/destination-A/Desktop\ -\ Destination\ -\ A.jpg);
+}
+
+#page-title {
+    font-family: 'BarlowCondensedRegular';
+    font-size: 28px;
+    letter-spacing: 4px;
+    font-weight: 300;
+    color: #FFF;
+}
+
+.main-content-container {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0px 80px;
+    gap: 80px;
+}
+
+.number-title {
+    color: rgba(255, 255, 255, 0.4);
+}
+
+.destination-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 32px;
+}
+
+.explanation-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 40px;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.navigation-bar-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-family: 'BarlowCondensedRegular';
+}
+
+.navigation-bar ul {
+    list-style-type: none;
+    color: #D0D6F9;
+    font-size: 16px;
+    letter-spacing: 2px;
+}
+
+.navigation-bar ul li {
+    padding-bottom: 8px;
+}
+
+.underline-text {
+    border-bottom: 2px solid #FFF;
+    color: #FFF;
+}
+
+#destination-title {
+    font-family: 'BellefairRegular';
+    font-size: 96px;
+    color: #FFF;
+    font-weight: 200;
+}
+
+.explanation-text {
+    width: 25vw;
+}
+
+.destination-statistcs {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.statistcs-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+

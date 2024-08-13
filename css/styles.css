@@ -1,16 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-image: url(/images/Desktop\ -\ Home\ \(1\).png);
-}
-
-@font-face {
-    font-family: 'Barlow Condensed';
-    src: url(/fonts/BarlowCondensed-Light.ttf);
-}
+.main-info  {
+    font-size: 18px;
+    font-family: 'BarlowCondensed';
+    color: #D0D6F9;
+} 
 
 .header-container {
     display: flex;
@@ -19,6 +11,7 @@ body {
     justify-content: space-between;
     padding-top: 40px;
     padding-left: 64px;
+    /*margin-bottom: 200px;*/
 }
 
 .header-logo {
@@ -55,34 +48,14 @@ body {
     list-style: none;
     font-size: 16px;
     color: #FFF;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'BarlowCondensed', sans-serif;
     gap: 10px;
 }
 
 .header-navigation ul li a {
     text-decoration: none;
     color: #FFF;
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: 'BarlowCondensed', sans-serif;
     font-weight: 200;
     
-}
-
-.main-container {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    justify-content: center;
-}
-
-.main-content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 80vw;
-}
-
-.main-info {
-    width: 50%;
-    font-family: 'Barlow Condensed', sans-serif;
-    color: #FFF;
 }
