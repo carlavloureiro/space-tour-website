@@ -22,23 +22,31 @@
 
                 <div class="destination-container">
                     <div class="image-container">
-                        <img src="/images/destination-A/moon.png" alt="">
+                        <img id="destination-image" src="/images/destinations/moon.png" alt="">
                     </div>
                     
                     <div class="explanation-container">
                         <div class="navigation-bar-container">
                             <nav class="navigation-bar">
                                 <ul>
-                                    <li class="underline-text">MOON</li>
+                                    <li class="underline-text">
+                                        <a id="moon" href="">MOON</a>
+                                    </li>
                                 </ul>
                                 <ul>
-                                    <li>MARS</li>
+                                    <li>
+                                        <a id="mars" href="">MARS</a>
+                                    </li>
                                 </ul>
                                 <ul>
-                                    <li>EUROPA</li>
+                                    <li>
+                                        <a id="europa" href="">EUROPA</a>
+                                    </li>
                                 </ul>
                                 <ul>
-                                    <li>TITAN</li>
+                                    <li>
+                                        <a id="titan" href="">TITAN</a>
+                                    </li>
                                 </ul>
                             </nav>
                         </div>
@@ -57,12 +65,12 @@
 
                         <div class="destination-statistcs">
                             <div class="statistcs-info">
-                                <span>AVG. DISTANCE</span>
-                                <span>384,400 KM</span>
+                                <span class="statistcs-title">AVG. DISTANCE</span>
+                                <span class="statistcs-number" id="distance">384,400 KM</span>
                             </div>
                             <div class="statistcs-info">
-                                <span>EST. TRAVEL TIME</span>
-                                <span>3 DAYS</span>
+                                <span class="statistcs-title">EST. TRAVEL TIME</span>
+                                <span class="statistcs-number" id="time">3 DAYS</span>
                             </div>
                         </div>
                     </div>
@@ -74,4 +82,5 @@
     </main>
 </body>
 <script src="/js/scripts.js"></script>
+<script src="/js/destination.js"></script>
 </html>

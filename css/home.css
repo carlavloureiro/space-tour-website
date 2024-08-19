@@ -1,3 +1,8 @@
+body {
+    background-image: url(/images/destinations/Desktop\ -\ Destination\ -\ A.jpg);
+    overflow-x: hidden;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -15,14 +20,16 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 0;
+    width: 100%;
+    margin-top: 90px;
 }
 
-.main-content {
+.home-main-content {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 450px;
+    width: 80%;
+    gap: 400px;
 }
 
 .main-info {
@@ -52,7 +59,17 @@ main {
     color: #D0D6F9;
 } 
 
-.button-container button {
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+}
+
+.explore-button {
     border: none;
     background-color: none;
     width: 272px;
@@ -60,4 +77,11 @@ main {
     border-radius: 50%;
     font-size: 32px;
     font-family: 'BellefairRegular';
+    cursor: pointer;
+    border: 30px solid transparent;
+}
+
+.explore-button:hover {
+    box-shadow: 0 0 0 49px hsla(230, 24%, 7%, 0.5);
+    color: hsla(230, 24%, 7%, 0.5);
 }
