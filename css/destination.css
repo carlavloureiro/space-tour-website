@@ -1,0 +1,144 @@
+body {
+    background: url(images/destination/Desktop\ -\ Destination\ -\ A.jpg) no-repeat
+    center center;
+    background-size: cover;
+}
+
+.destination-main-content-container {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 3em;
+    padding-left: 5em;
+    box-sizing: border-box;
+}
+
+.destination-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0 4em;
+    gap: 0;
+}
+
+#destination-page-title {
+    font-family: 'BarlowCondensedRegular';
+    font-size: 1.8em;
+    letter-spacing: 0.15em;
+    font-weight: 300;
+    color: #FFF;
+}
+
+.destination-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 5em;
+}
+
+.destination-image-container {
+    width: 100%;
+    height: 100%;
+}
+
+#destination-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.destination-explanation-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 3em;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.navigation-bar-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    font-family: 'BarlowCondensedRegular';
+}
+
+.navigation-bar ul {
+    list-style-type: none;
+    color: #D0D6F9;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+}
+
+.navigation-bar ul li {
+    padding-bottom: 0.7em;
+}
+
+.navigation-bar ul li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #D0D6F9;
+}
+
+.underline-text {
+    border-bottom: 0.1em solid #FFF;
+    color: #FFF;
+    padding-bottom: 8px;
+}
+
+
+#destination-title {
+    font-family: 'BellefairRegular';
+    font-size: 6em;
+    color: #FFF;
+    font-weight: 200;
+}
+
+.explanation-text {
+    width: 25vw;
+}
+
+.destination-main-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1.5em;
+    font-size: 1.2em;
+    font-family: 'BarlowCondensed';
+    color: #D0D6F9;
+    font-family: 'BarlowCondensed';
+}
+
+hr {
+    color: hsla(0, 0%, 25%, 0.25)
+}
+
+.destination-statistcs {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.statistcs-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.statistcs-title {
+    font-size: 1em;
+    font-family: 'BarlowCondensed';
+    letter-spacing: 2px;
+    font-weight: 200;
+    color: #D0D6F9;
+}
+
+.statistcs-number {
+    font-size: 2em;
+    font-family: 'BellefairRegular';
+    color: #FFF;
+}

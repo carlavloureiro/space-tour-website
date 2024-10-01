@@ -3,34 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Space Tourism</title>
 
-    <link rel="stylesheet" href="/css/destination-A.css">
+    <link rel="icon" href="/images/homepage-header/Path.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/destination.css">
     <link rel="stylesheet" href="/css/fonts.css">
     <link rel="stylesheet" href="/css/styles.css">
+
+    <link rel="stylesheet" href="/css/media-query.css">
 </head>
 
 <body>
     <header id="header"></header>
 
     <main>
-        <div class="main-content-container">
-            <div class="main-content">
-                <div class="page-title-container">
-                    <h1 id="page-title"> <b class="number-title">01</b> PICK YOUR DESTINATION</h1>
+        <div class="destination-main-content-container">
+            <div class="destination-main-content">
+                <div class="destination-page-title-container">
+                    <h1 id="destination-page-title"> <b class="number-title">01</b> PICK YOUR DESTINATION</h1>
                 </div>
 
                 <div class="destination-container">
-                    <div class="image-container">
-                        <img id="destination-image" src="/images/destinations/moon.png" alt="">
+                    <div class="destination-image-container">
+                        <img id="destination-image" src="/images/destination/moon.png" alt="">
                     </div>
                     
-                    <div class="explanation-container">
+                    <div class="destination-explanation-container">
                         <div class="navigation-bar-container">
                             <nav class="navigation-bar">
                                 <ul>
-                                    <li class="underline-text">
-                                        <a id="moon" href="">MOON</a>
+                                    <li>
+                                        <a id="moon" class="underline-text" href="">MOON</a>
                                     </li>
                                 </ul>
                                 <ul>
@@ -53,7 +56,7 @@
 
                         <div class="explanation-text">
                             <h1 id="destination-title">MOON</h1>
-                            <p class="main-info">
+                            <p class="destination-main-info">
                                 See our planet as you’ve never seen it before. A perfect 
                                 relaxing trip away to help regain perspective and come back 
                                 refreshed. While you’re there, take in some history by visiting 
@@ -81,6 +84,6 @@
         </div>
     </main>
 </body>
-<script src="/js/scripts.js"></script>
-<script src="/js/destination.js"></script>
+<script src="/js/common.js" defer></script>
+<script src="/js/destination.js" defer></script>
 </html>

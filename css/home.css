@@ -1,27 +1,19 @@
 body {
-    background-image: url(/images/destinations/Desktop\ -\ Destination\ -\ A.jpg);
-    overflow-x: hidden;
-}
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-image: url(/images/Desktop\ -\ Home\ \(1\).png);
+    background: url(/images/home/Desktop-home.png) no-repeat
+    center center;
+    background-size: cover;
 }
 
 main {
-    padding: 20px;
+    padding: 1em;
 }
 
-.main-container {
+.home-main-container {
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    margin-top: 90px;
+    margin-top: 7em;
 }
 
 .home-main-content {
@@ -29,32 +21,31 @@ main {
     flex-direction: row;
     align-items: center;
     width: 80%;
-    gap: 400px;
+    gap: 23em;
 }
 
 .main-info {
     display: flex;
     flex-direction: column;
-    width: 30vw;
-    gap: 24px;
+    width: 30%;
 }
 
 .main-info-title {
-    font-size: 28px;
+    font-size: 1.6em;
     font-family: 'BarlowCondensed', sans-serif;
     color: #D0D6F9;
-    letter-spacing: 4px;
+    letter-spacing: 0.1em;
     font-weight: 300;
 }
 
 .main-info span {
-    font-size: 150px;
+    font-size: 8em;
     font-family: 'BellefairRegular', sans-serif;
     color: #FFF;
 }
 
 .main-info p {
-    font-size: 18px;
+    font-size: 1em;
     font-family: 'BarlowCondensedRegular', sans-serif;
     color: #D0D6F9;
 } 
@@ -64,24 +55,29 @@ main {
     align-items: center;
     justify-content: center;
     background-color: none;
-    width: 370px;
-    height: 370px;
     border-radius: 50%;
+}
+
+.button-container a {
+    text-decoration: none;
+    color: #0B0D17;
 }
 
 .explore-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: none;
-    background-color: none;
-    width: 272px;
-    height: 272px;
+    background-color: #FFF;
+    width: 9em;
+    height: 9em;
     border-radius: 50%;
-    font-size: 32px;
+    font-size: 2em;
     font-family: 'BellefairRegular';
     cursor: pointer;
-    border: 30px solid transparent;
 }
 
 .explore-button:hover {
-    box-shadow: 0 0 0 49px hsla(230, 24%, 7%, 0.5);
+    box-shadow: 0 0 0 2.5em hsla(230, 24%, 7%, 0.5);
     color: hsla(230, 24%, 7%, 0.5);
-}
+} 

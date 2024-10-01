@@ -1,0 +1,105 @@
+body {
+    background: url(images/crew/Desktop-Crew.png) no-repeat center center;
+    background-size: cover;
+}
+
+.crew-main-content-container {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 40px;
+    padding-left: 80px;
+    box-sizing: border-box;
+}
+
+.crew-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin: 0px 60px;
+    gap: 0px;
+}
+
+#crew-page-title {
+    font-family: 'BarlowCondensedRegular';
+    font-size: 28px;
+    letter-spacing: 4px;
+    font-weight: 300;
+    color: #FFF;
+}
+
+.crew-information-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3em;
+    padding-right: 3em;
+}
+
+.crew-information {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 50%;
+}
+
+.main-info-crew {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    width: 40vw;
+} 
+
+.crew-title {
+    font-family: 'BellefairRegular';
+    font-size: 2em;
+    font-weight: 200;
+    color: hsla(0, 0%, 50%);
+}
+
+.crew-title-name {
+    font-family: 'BellefairRegular';
+    font-size: 3.5em;
+    color: #fff;
+}
+
+.crew-main-info {
+    display: flex;
+    font-size: 1.2em;
+    font-family: 'BarlowCondensed';
+    color: #D0D6F9;
+}
+
+.crew-navigation-bar ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2.4em;
+    list-style: none;
+}
+
+.circle-button {
+    width: 1em;
+    height: 1em;
+    background-color: hsla(0, 0%, 50%);
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.selected-button {
+    background-color: #fff;
+    border: none;
+}
+
+.crew-image-container {
+    display: flex;
+    width: 50%;
+    height: 100vh;
+}
+
+#crew-image {
+    display: flex;
+    max-width: 100%; 
+    height: auto;
+}
