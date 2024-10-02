@@ -49,7 +49,7 @@ function alterarBackground(e) {
                 document.body.style.background = `url('./images/home/Mobile-home.png')`;
             } else {
                 pageName = segments.split('.').shift();
-                document.body.style.background = `url('./images/${pageName}/Mobile-${pageName}.png')`;
+                document.body.style.background = `url('./images/${pageName}/Mobile-${pageName}.png') no-repeat center center`;
                 document.body.style.backgroundSize = 'cover';
             }      
     }
