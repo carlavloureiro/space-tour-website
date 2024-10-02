@@ -39,7 +39,7 @@ const terminologyInformations = {
 function alterarDisplayTerminology(event) {
     event.preventDefault();
     let paginationSelected = event.target.id;
-    technologyImage.src = `../images/technology/${paginationSelected}.png`;
+    technologyImage.src = `./images/technology/${paginationSelected}.png`;
     selectedTitle.innerHTML = terminologyInformations[paginationSelected].title;
     mainInfo.innerHTML = terminologyInformations[paginationSelected].mainInfo;
 
