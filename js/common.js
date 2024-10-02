@@ -1,10 +1,19 @@
 document.addEventListener('DOMContentLoaded', function () {
-    fetch('header.html')
+    let path = window.location.pathname;
+    let fetchPath;
+
+    if (path.endsWith('index.html') || path === '/') {
+        fetchPath = './html/header.html';
+    } else {
+        fetchPath = '../html/header.html';
+    }
+
+    fetch(fetchPath)
         .then(response => response.text())
         .then(data => {
             document.getElementById('header').innerHTML = data;
             setupHeaderLinks(); 
-            setupMobileMenu();  
+            setupMobileMenu();   
         });
 });
 
@@ -13,7 +22,6 @@ function setupHeaderLinks() {
     const currentUrl = window.location.href;
 
     links.forEach(link => {
-        // Verifica se o link corresponde à URL atual
         if (link.href === currentUrl) {
             link.classList.add('active');
         }
