@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded', function () {
     let path = window.location.pathname;
     let fetchPath;
 
-    if (path.endsWith('index.html') || path === '/') {
+    if (path.endsWith('index.html') || path === '/' || path === '/<space-tour-website>/') {
         fetchPath = './html/header.html';
     } else {
-        fetchPath = '../html/header.html';
+        fetchPath = './html/header.html';
     }
 
     fetch(fetchPath)
@@ -37,10 +37,10 @@ function setupMobileMenu() {
             nav.style.display = "flex";
             nav.classList.toggle('active');
             if (nav.classList.contains("active")) {
-                menuIcon.setAttribute('src', '/images/homepage-header/Close.png');
+                menuIcon.setAttribute('src', '../images/homepage-header/Close.png');
             }
             else {
-                menuIcon.setAttribute('src', '/images/homepage-header/menu.png')
+                menuIcon.setAttribute('src', '../images/homepage-header/menu.png')
             }
             
         });
@@ -55,10 +55,10 @@ function alterarBackground(e) {
         let segments = path.split('/').pop();
         let pageName;
             if (!segments || segments === 'index.html') {
-                document.body.style.background = `url('/images/home/Mobile-home.png')`;
+                document.body.style.background = `url('./images/home/Mobile-home.png')`;
             } else {
                 pageName = segments.split('.').shift();
-                document.body.style.background = `url('/images/${pageName}/Mobile-${pageName}.png')`;
+                document.body.style.background = `url('./images/${pageName}/Mobile-${pageName}.png')`;
                 document.body.style.backgroundSize = 'cover';
             }      
     }
