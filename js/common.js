@@ -47,6 +47,7 @@ function alterarBackground(e) {
         let pageName;
             if (!segments || segments === 'index.html') {
                 document.body.style.background = `url('./images/home/Mobile-home.png')`;
+                document.body.style.backgroundSize = 'cover';
             } else {
                 pageName = segments.split('.').shift();
                 document.body.style.background = `url('./images/${pageName}/Mobile-${pageName}.png') no-repeat center center`;
