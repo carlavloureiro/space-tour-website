@@ -55,7 +55,7 @@ const destinations = {
 function alterarDisplay(event, destinations) {
     event.preventDefault();
     let destination = event.target.id;
-    destinationImage.src = `../images/destination/${destination}.png`;
+    destinationImage.src = `./images/destination/${destination}.png`;
     destinationTitle.innerHTML = destinations[`${destination}`].title;
     destinationInfo.innerHTML = destinations[`${destination}`].mainInfo;
     destinationDistance.innerHTML = destinations[`${destination}`].distance;
