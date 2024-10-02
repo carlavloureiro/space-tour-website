@@ -48,7 +48,7 @@ const crewInformations = {
 function alterarInfo(event) {
     event.preventDefault();
     let paginationSelected = event.target.id;
-    crewImage.src = `/images/crew/${paginationSelected}.png`;
+    crewImage.src = `../images/crew/${paginationSelected}.png`;
     crewTitle.innerHTML = crewInformations[`${paginationSelected}`].title;
     crewName.innerHTML = crewInformations[`${paginationSelected}`].name;
     crewInfo.innerHTML = crewInformations[`${paginationSelected}`].mainInfo;
