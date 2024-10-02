@@ -1,14 +1,14 @@
 @font-face {
     font-family: 'BarlowCondensed';
-    src: url(../fonts/BarlowCondensed/BarlowCondensed-Light.ttf);
+    src: url(./fonts/BarlowCondensed/BarlowCondensed-Light.ttf);
 }
 
 @font-face {
     font-family: 'BarlowCondensedRegular';
-    src: url(../fonts/BarlowCondensed/BarlowCondensed-Regular.ttf);
+    src: url(./fonts/BarlowCondensed/BarlowCondensed-Regular.ttf);
 }
 
 @font-face {
     font-family: 'BellefairRegular';
-    src: url(../fonts/Bellefair/Bellefair-Regular.ttf);
+    src: url(./fonts/Bellefair/Bellefair-Regular.ttf);
 }
