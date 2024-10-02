@@ -17,7 +17,7 @@ main {
     padding-top: 40px;
     width: 90%;
     margin-right: 0;
-    gap: 1.5em;
+    gap: 1.3em;
 }
 
 .page-title-container {
@@ -26,7 +26,7 @@ main {
 
 #technology-title {
     font-family: 'BarlowCondensedRegular';
-    font-size: 1.7em;
+    font-size: 1.8em;
     letter-spacing: 0.1em;
     font-weight: 300;
     color: #FFF;
