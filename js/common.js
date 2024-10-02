@@ -37,10 +37,10 @@ function setupMobileMenu() {
             nav.style.display = "flex";
             nav.classList.toggle('active');
             if (nav.classList.contains("active")) {
-                menuIcon.setAttribute('src', '../images/homepage-header/Close.png');
+                menuIcon.setAttribute('src', './images/homepage-header/Close.png');
             }
             else {
-                menuIcon.setAttribute('src', '../images/homepage-header/menu.png')
+                menuIcon.setAttribute('src', './images/homepage-header/menu.png')
             }
             
         });
