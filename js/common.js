@@ -40,12 +40,18 @@ function setupMobileMenu() {
                 menuIcon.setAttribute('src', './images/homepage-header/Close.png');
             }
             else {
-                menuIcon.setAttribute('src', './images/homepage-header/menu.png')
+                // Corrija o caminho para '../' ou './' dependendo da página onde você está
+                let path = window.location.pathname;
+                if (path.endsWith('index.html') || path === '/' || path === '/<space-tour-website>/') {
+                    menuIcon.setAttribute('src', './images/homepage-header/menu.png'); 
+                } else {
+                    menuIcon.setAttribute('src', '../images/homepage-header/menu.png'); 
+                }
             }
-            
         });
     }
 }
+
 
 const mobileMediaQuery = window.matchMedia('(max-width: 600px)');
 
