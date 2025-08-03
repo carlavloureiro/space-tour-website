@@ -12,16 +12,56 @@
 
     <link rel="stylesheet" href="./css/media-query.css">
 </head>
+
 <body>
-    <header id="header"></header>
+    <header id="header">
+        <div class="header-container">
+    
+    <div class="header-logo">
+        <a href="../html/index.html">
+            <img id="logo" src="./images/homepage-header/Path.png" alt="">
+        </a>
+    </div>
+
+    <hr id="header-line">
+
+    <nav class="header-navigation">
+        <ul>
+            <li>
+                <a href="#" id="home-option" class="nav-link"> <b>00</b> HOME</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="./html/destination.html" id="destination-option" class="nav-link"> <b>01</b> DESTINATION</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="./html/crew.html" id="crew-option" class="nav-link"> <b>02</b> CREW</a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="./html/technology.html" id="technology-option" class="nav-link"> <b>03</b> TECHNOLOGY</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="mobile-menu">
+        <img class="menu-icon" src="../images/homepage-header/menu.png" alt="">
+    </div>
+    </div>
+
+    </header>
 
     <main>
         <div class="home-main-container">
             
-            <div class="home-main-content">>SO, YOU WANT TO TRAVEL TO</h1>
-                    <span>SPACE</span>
-                    <p>
-                        Let’s face it; if you want to go to space, you might 
+            <div class="home-main-content"><h1 class="text-1">SO, YOU WANT TO TRAVEL TO</h1>
+                    <span class="text-2">SPACE</span>
+                    <p class="text-3">
+                        Let’s face it: if you want to go to space, you might 
                         well genuinely go to outer space and not hover kind of
                         on the edge of it. Well sit back, and relax because we’ll 
                         you a truly out of this world experience!
@@ -29,7 +69,7 @@
                 </div>
 
                 <div class="button-container">
-                    <a href="https://carlavloureiro.github.io/space-tour-website/destination.html">
+                    <a href="./html/destination.html">
                         <button class="explore-button">EXPLORE</button>
                     </a>
                     
@@ -38,5 +78,6 @@
         </div>
     </main>
 </body>
+
 <script src="./js/common.js" defer></script>
 </html>

@@ -1,22 +1,3 @@
-document.addEventListener('DOMContentLoaded', function () {
-    let path = window.location.pathname;
-    let fetchPath;
-
-    if (path.endsWith('index.html') || path === '/' || path === '/<space-tour-website>/') {
-        fetchPath = './html/header.html';
-    } else {
-        fetchPath = './html/header.html';
-    }
-
-    fetch(fetchPath)
-        .then(response => response.text())
-        .then(data => {
-            document.getElementById('header').innerHTML = data;
-            setupHeaderLinks(); 
-            setupMobileMenu();   
-        });
-});
-
 function setupHeaderLinks() {
     const links = document.querySelectorAll('.nav-link');
     const currentUrl = window.location.href;

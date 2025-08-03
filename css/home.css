@@ -1,6 +1,6 @@
 body {
     background: url(../images/home/Desktop-home.png) no-repeat center center;
-    background-size: cover repeat;
+    background-size: cover;
 }
 
 main {
@@ -8,7 +8,10 @@ main {
 }
 
 .home-main-container {
+    margin-top: 20px;
     display: flex;
+    flex-direction: row;
+    gap: 20em;
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -16,11 +19,32 @@ main {
 }
 
 .home-main-content {
+    color: #FFF;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 80%;
-    gap: 23em;
+    font-family: 'BarlowCondensed';
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    gap: 10px;
+}
+
+.text-1 {
+    font-family: 'BarlowCondensed';
+    font-weight: 300;
+    font-size: 2em;
+    letter-spacing: 2px;
+}
+
+.text-2 {
+    font-family: 'BellefairRegular';
+    font-weight: 500;
+    font-size: 13em;
+}
+
+.text-3 {
+        font-family: 'BellefairRegular';
+    font-weight: 300;
+    font-size: 1.5em;
 }
 
 .main-info {
